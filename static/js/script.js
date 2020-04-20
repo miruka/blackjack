@@ -139,11 +139,9 @@ function buttonsColorReset() {
 function randomColors() {
   let choices = ["btn-primary", "btn-danger", "btn-success", "btn-warning", "btn-info"];
   for (let i = 0; i < all_buttons.length; i++) {
-    let randomNumber = Math.floor(Math.random() * 5);
-
     all_buttons[i].classList.remove(all_buttons[i].classList[1]);
     all_buttons[i].classList.add(choices[randomNumber]);
   }
 }
 
-//How Blalckjack Works
+//How Blalckjack Workssssss
